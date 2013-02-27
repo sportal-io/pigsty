@@ -1,0 +1,5 @@
+config/config.js
+logs/
+*.swp
+node_modules/
+.bookmark
