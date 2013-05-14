@@ -1,7 +1,7 @@
 {
   "name": "pigsty",
   "version": "0.1.0",
-  "description": "spooler for unified2",
+  "description": "Pigsty is very efficient and customizable spooler for the unified2 file format.",
   "main": "./lib/pigsty.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

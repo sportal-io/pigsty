@@ -7,7 +7,7 @@ module.exports = {
 
   references: {
     reference_file:      './config/references/reference.config',
-    classification_file: './config/references/classification.config'
+    classification_file: './config/references/classification.config',
     gen_file:            './config/references/gen-msg.map',
     sid_file:            './config/references/sid-msg.map'
   },
@@ -23,18 +23,37 @@ module.exports = {
     // bookmark: './config/.bookmark'
   },
 
+  // configure your output plugins here.
   output: {
     
-    // configure your output plugins here.
-    'mysql-database': {
+    mysql: {
+      ssl: true,
+      user: 'root',
+      password: 's3cr3tsauce',
+      host: '127.0.0.1',
+      database: 'snorby',
+    },
+
+    websocket: [
+      {
+        host: "127.0.0.1",
+        port: 3000
+      },
+      {
+        host: "127.0.0.1",
+        port: 3001
+      } 
+    ],
+
+    postgres: {
+      ssl: true,
       user: 'root',
       password: 's3cr3tsauce',
       host: '127.0.0.1',
       database: 'snorby',
     }
     
-  }
-
+  } // outputs
 }
 
 
