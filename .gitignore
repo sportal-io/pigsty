@@ -1,4 +1,5 @@
 config/config.js
+config/references
 logs/
 *.swp
 node_modules/
