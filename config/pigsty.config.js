@@ -7,7 +7,7 @@ module.exports = {
 
   references: {
     reference_file:      './config/references/reference.config',
-    classification_file: './config/references/classification.config'
+    classification_file: './config/references/classification.config',
     gen_file:            './config/references/gen-msg.map',
     sid_file:            './config/references/sid-msg.map'
   },
