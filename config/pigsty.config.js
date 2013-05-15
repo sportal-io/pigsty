@@ -32,26 +32,27 @@ module.exports = {
       password: 's3cr3tsauce',
       host: '127.0.0.1',
       database: 'snorby',
+      max_pool_size: 5
     },
 
-    websocket: [
-      {
-        host: "127.0.0.1",
-        port: 3000
-      },
-      {
-        host: "127.0.0.1",
-        port: 3001
-      } 
-    ],
+    // websocket: [
+      // {
+        // host: "127.0.0.1",
+        // port: 3000
+      // },
+      // {
+        // host: "127.0.0.1",
+        // port: 3001
+      // } 
+    // ],
 
-    postgres: {
-      ssl: true,
-      user: 'root',
-      password: 's3cr3tsauce',
-      host: '127.0.0.1',
-      database: 'snorby',
-    }
+    // postgres: {
+      // ssl: true,
+      // user: 'root',
+      // password: 's3cr3tsauce',
+      // host: '127.0.0.1',
+      // database: 'snorby',
+    // }
     
   } // outputs
 }
