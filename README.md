@@ -16,7 +16,7 @@ Thus, Pigsty was born.
     $ edit ./config/pigsty.config.js
     $ ./bin/pigsty 
 
-# Performance
+## Performance
 
 Currently, the unified2 spooler reads at about 3000eps. Running w/ the pigsty-mysql
 output plugin, you'll get ~1000eps.  This should be more than adequate for 
