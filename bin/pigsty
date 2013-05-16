@@ -2,6 +2,9 @@
 
 var pigsty = require('../lib/pigsty');
 var argv = require('optimist').argv;
+var cli = require('../lib/pigsty/cli');
+
+cli.init();
 
 
 // Pigsty - The best unfiied2 spooler
