@@ -31,8 +31,8 @@ module.exports = {
       user: 'root',
       password: 's3cr3tsauce',
       host: '127.0.0.1',
-      database: 'snorby',
-      max_pool_size: 5
+      database: 'snorbyfresh',
+      max_pool_size: 10 
     },
 
     // websocket: [
