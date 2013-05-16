@@ -26,22 +26,23 @@ module.exports = {
   // configure your output plugins here.
   output: {
     
-    mysql: {
-      ssl: true,
-      user: 'root',
-      password: 's3cr3tsauce',
-      host: '127.0.0.1',
-      database: 'snorbyfresh',
-      max_pool_size: 5 
-    },
+    // mysql: {
+      // ssl: true,
+      // user: 'root',
+      // password: 's3cr3tsauce',
+      // host: '127.0.0.1',
+      // database: 'snorbyfresh',
+      // max_pool_size: 5 
+    // },
     
-    //mongodb: {
-    //  host: "localhost",
-    //  port: 27017,
-    //  user: "pigsty",
-    //  password: "pigsty",
-    //  auto_reconnect: false
-    //},
+    mongodb: {
+     host: "localhost",
+     port: 27017,
+     database: "pigsty",
+     // user: "pigsty",
+     // password: "pigsty",
+     // auto_reconnect: false
+    },
 
     // websocket: [
       // {
