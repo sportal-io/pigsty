@@ -34,6 +34,14 @@ module.exports = {
       database: 'snorbyfresh',
       max_pool_size: 5 
     },
+    
+    //mongodb: {
+    //  host: "localhost",
+    //  port: 27017,
+    //  user: "pigsty",
+    //  password: "pigsty",
+    //  auto_reconnect: false
+    //},
 
     // websocket: [
       // {
