@@ -32,7 +32,7 @@ module.exports = {
       password: 's3cr3tsauce',
       host: '127.0.0.1',
       database: 'snorbyfresh',
-      max_pool_size: 10 
+      max_pool_size: 5 
     },
 
     // websocket: [
