@@ -1,4 +1,4 @@
-config/config.js
+config/pigsty.config.js
 config/references
 logs/
 *.swp
