@@ -16,6 +16,8 @@ module.exports = {
     // e.g., /var/snort/logs
     path: './logs',
 
+    match_files: 'unified2.alert.*',
+
     // either 'continuous' or 'read'.  Will exit after reading unless mode == 'continuous'.
     mode: 'continuous', 
 
