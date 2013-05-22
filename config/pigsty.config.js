@@ -22,19 +22,24 @@ module.exports = {
     mode: 'continuous', 
 
     // Uncomment below to set a bookmark file.
-    // bookmark: './config/.bookmark'
+    bookmark: './config/.bookmark'
   },
 
   // configure your output plugins here.
   output: {
     
-    mysql: {
-      ssl: true,
-      user: 'root',
-      password: 's3cr3tsauce',
-      host: '127.0.0.1',
-      database: 'snorbyfresh',
-      max_pool_size: 5 
+    // mysql: {
+      // ssl: true,
+      // user: 'root',
+      // password: 's3cr3tsauce',
+      // host: '127.0.0.1',
+      // database: 'snorbyfresh',
+      // max_pool_size: 5 
+    // },
+
+    websocket: {
+      host: "127.0.0.1",
+      port: 3009
     },
 
     // websocket: [
