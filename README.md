@@ -34,13 +34,16 @@ Instructions for doing so are here: https://github.com/joyent/node/wiki/Installi
     $ install node.js for your platform
     $ npm install pigsty -g
     $ sudo pigsty setup
+    $ <edit /etc/pigsty/pigsty.config.js>
+    $ npm install pigsty-<pluginname> -g   # repeat for any plugins you need
+    $ pigsty                               # run pigsty!
 
 ### For developers
 
     $ install node.js for your platform
     $ git clone git@github.com:threatstack/pigsty.git
     $ cd ./pigsty && npm install
-    $ edit ./config/pigsty.config.js
+    $ pigsty setup                         # setup your config. 
     $ ./bin/pigsty 
 
 ## Performance
