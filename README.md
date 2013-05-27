@@ -29,6 +29,7 @@ Thus, Pigsty was born.
 
 Pigsty requires libpcap (`apt get install libpcap-dev` on ubuntu).
 You also need to install node.js for your platform.  We recommend v.10.x.
+Instructions for doing so are here: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 
 ### Ordinary people
 
@@ -62,7 +63,7 @@ Full documentation on writing plugins coming soon.
 
 #### FAQ
 
-##### `npm install pigsty` is reporting pcap errors:
+##### Q. Can't install; `npm install pigsty -g` is reporting pcap errors:
 
 ```
 make: Entering directory `/usr/lib/node_modules/pigsty/node_modules/unified2/node_modules/pcap/build'
@@ -83,7 +84,7 @@ gyp ERR! System Linux 3.5.0-17-generic
 A. Make sure you install libpcap
 
 
-###### I installed pigsty using `npm install pigsty -g` but I don't have the pigsty binary
+##### Q. I installed pigsty using `npm install pigsty -g` but I don't have the pigsty binary
 
 A.  Usually, it will get symlinked to /usr/bin.  Depending on your platform, npm bin/ path is probably not in your path.  
 You can look for it using `find / -name "pigsty"`.
