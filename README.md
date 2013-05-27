@@ -1,5 +1,20 @@
 # Pigsty
 
+```
+          ,.
+         (_|,.
+        ,' /, )_______   _
+     __j o``-'        `.'-)'
+    (")                 \'
+     `-j                |
+       `-._(           /
+          |_\  |--^.  /
+         /_]'|_| /_)_/
+            /_]'  /_]'
+
+
+```
+
 Pigsty is designed as a replacement for Barnyard2.  It's written in Javascript
 using Node.js.
 
@@ -9,6 +24,18 @@ We wanted something that was a little more extensible than Barnyard2.
 Thus, Pigsty was born.
 
 ## Installation
+
+### Requirements
+
+Pigsty requires libpcap (`apt get install libpcap-dev` on ubuntu).
+
+### Ordinary people
+
+    $ install node.js for your platform
+    $ npm install pigsty -g
+    $ sudo pigsty setup
+
+### For developers
 
     $ install node.js for your platform
     $ git clone git@github.com:threatstack/pigsty.git
