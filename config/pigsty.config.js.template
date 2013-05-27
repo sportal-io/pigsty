@@ -1,11 +1,19 @@
 module.exports = {
 
+  // you must remove this line!
+  unconfigured: true, 
+
   sensor: {
-     name: 'jen_laptop',
-     interface: 'em0'
+     // your sensor name, e.g. 'my-sensor-1' 
+     name: 'pigsty',
+
+     // your sensor interface, e.g. 'eth0'
+     interface: 'en0'
   },
 
+  // these must be set correctly 
   references: {
+
     reference_file:      './config/references/reference.config',
     classification_file: './config/references/classification.config',
     gen_file:            './config/references/gen-msg.map',
@@ -19,19 +27,19 @@ module.exports = {
     // either 'continuous' or 'read'.  Will exit after reading unless mode == 'continuous'.
     mode: 'continuous', 
 
-    // Uncomment below to set a bookmark file.
-    // bookmark: './config/.bookmark'
+    // Where to store the bookmark for unified2 logs. default is /etc/pigsty/.bookmark
+    bookmark: '/etc/pigsty/.bookmark'
   },
 
   // configure your output plugins here.
   output: {
     
     mysql: {
-      ssl: true,
       user: 'root',
-      password: 's3cr3tsauce',
+      password: 'password',
       host: '127.0.0.1',
-      database: 'snorbyfresh',
+      database: 'snorby',
+      // # of connections to use for the connection pool.
       max_pool_size: 10 
     },
 
@@ -46,15 +54,7 @@ module.exports = {
       // } 
     // ],
 
-    // postgres: {
-      // ssl: true,
-      // user: 'root',
-      // password: 's3cr3tsauce',
-      // host: '127.0.0.1',
-      // database: 'snorby',
-    // }
-    
-  } // outputs
+  } 
 }
 
 

@@ -7,17 +7,3 @@ var cli = require('../lib/pigsty/cli');
 cli.init();
 
 
-// Pigsty - The best unfiied2 spooler
-
-    // -l, --logs
-    // -C, --classification-conf - Classification.conf
-    // -R, --references-conf - refrences.conf
-    // -S, --sig-map - sig-map
-    // -G, --gen-map - gen map
-    // -i, --interfaces
-    // -c, --config - pigsty configuration file
-    // -p, --plugins - mysql:::host=127.0.0.1;port=8080;ssl=true;password="word" postgres:::host=""
-
-
-
-
