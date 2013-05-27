@@ -11,8 +11,6 @@
           |_\  |--^.  /
          /_]'|_| /_)_/
             /_]'  /_]'
-
-
 ```
 
 Pigsty is designed as a replacement for Barnyard2.  It's written in Javascript
