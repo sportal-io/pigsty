@@ -1,7 +1,8 @@
 {
   "name": "pigsty",
   "version": "0.1.0",
-  "description": "Pigsty is very efficient and customizable spooler for the unified2 file format.",
+  "bin": { "pigsty": "./bin/pigsty" },
+  "description": "Pigsty is parser and output plugin framework for your Snort unified2 files.",
   "main": "./lib/pigsty.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,6 +16,8 @@
     "glob": "~3.1.20",
     "debug": "~0.7.2",
     "underscore": "~1.4.4",
-    "ip": "0.0.5"
+    "ip": "0.0.5",
+    "commander": "~1.1.1",
+    "wrench": "~1.5.1"
   }
 }
