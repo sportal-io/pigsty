@@ -19,29 +19,5 @@ cli.init();
     // -p, --plugins - mysql:::host=127.0.0.1;port=8080;ssl=true;password="word" postgres:::host=""
 
 
-var Spooler = require('../lib/pigsty/spooler');
-var fs = require('fs');
-var path = require('path');
-
-if (!fs.existsSync(path.join(__dirname, '../config/pigsty.config.js'))) {
-  console.error("[!] Configuration file config/pigsty.config.js is missing.");
-  process.exit(1);
-};
-
-var config = require('../config/pigsty.config')
-
-var spooler = new Spooler(config);
-spooler.start();
-
-process.on('SIGINT', function() {
-  spooler.stop();
-  process.exit(0);
-})
-
-process.on('SIGTERM', function() {
-  spooler.stop();
-  process.exit(0);
-})
-
 
 
