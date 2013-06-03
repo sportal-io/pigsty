@@ -5,8 +5,32 @@ using Node.js.
 
 ## Why?
 
-We wanted something that was a little more extensible than Barnyard2.  
-Thus, Pigsty was born.
+We wanted something that was a little more extensible than Barnyard2. Thus, Pigsty was born.
+
+## Installation
+
+### Requirements
+
+Pigsty requires libpcap (`apt get install libpcap-dev` on ubuntu).
+You also need to install node.js for your platform.  We recommend v.10.x.
+Instructions for doing so are here: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+
+### Ordinary people
+
+    $ install node.js for your platform
+    $ npm install pigsty -g
+    $ sudo pigsty setup
+    $ <edit /etc/pigsty/pigsty.config.js>
+    $ npm install pigsty-<pluginname> -g   # repeat for any plugins you need
+    $ pigsty                               # run pigsty!
+
+### For developers
+
+    $ install node.js for your platform
+    $ git clone git@github.com:threatstack/pigsty.git
+    $ cd ./pigsty && npm install
+    $ pigsty setup                         # setup your config. 
+    $ ./bin/pigsty 
 
 ## Usage
 
@@ -54,31 +78,6 @@ Thus, Pigsty was born.
 	 Example: pigsty -i en1 -n "Pigsty" -d /logs/ -m unified2.alert.* -c ~/pigsty.config.js -D
 
 ```
-
-## Installation
-
-### Requirements
-
-Pigsty requires libpcap (`apt get install libpcap-dev` on ubuntu).
-You also need to install node.js for your platform.  We recommend v.10.x.
-Instructions for doing so are here: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
-
-### Ordinary people
-
-    $ install node.js for your platform
-    $ npm install pigsty -g
-    $ sudo pigsty setup
-    $ <edit /etc/pigsty/pigsty.config.js>
-    $ npm install pigsty-<pluginname> -g   # repeat for any plugins you need
-    $ pigsty                               # run pigsty!
-
-### For developers
-
-    $ install node.js for your platform
-    $ git clone git@github.com:threatstack/pigsty.git
-    $ cd ./pigsty && npm install
-    $ pigsty setup                         # setup your config. 
-    $ ./bin/pigsty 
 
 ## Performance
 
