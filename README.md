@@ -76,7 +76,6 @@ Instructions for doing so are here: https://github.com/joyent/node/wiki/Installi
 	 -S, --sid-msg          Sid-msg.map file.
 
 	 Example: pigsty -i en1 -n "Pigsty" -d /logs/ -m unified2.alert.* -c ~/pigsty.config.js -D
-
 ```
 
 ## Performance
