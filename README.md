@@ -21,8 +21,7 @@ Thus, Pigsty was born.
 	       |_  |--^.  /
 	      /_]'|_| /_)_/
 	         /_]'  /_]'
-
-	      Version:  0.1.0
+	         
 	Pigsty by Threat Stack, Inc
 	https://www.threatstack.com
 
