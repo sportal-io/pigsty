@@ -11,8 +11,8 @@ Thus, Pigsty was born.
 ## Usage
 
 ```
-                 ,.
-                (_|,.
+	       ,.
+	      (_|,.
 	     ,' /, )_______   _
 	  __j o``-'        `.'-)'
 	 (")                 '
@@ -53,6 +53,7 @@ Thus, Pigsty was born.
 	 -S, --sid-msg          Sid-msg.map file.
 
 	 Example: pigsty -i en1 -n "Pigsty" -d /logs/ -m unified2.alert.* -c ~/pigsty.config.js -D
+
 ```
 
 ## Installation
