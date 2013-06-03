@@ -1,18 +1,5 @@
 # Pigsty
 
-```
-          ,.
-         (_|,.
-        ,' /, )_______   _
-     __j o``-'        `.'-)'
-    (")                 \'
-     `-j                |
-       `-._(           /
-          |_\  |--^.  /
-         /_]'|_| /_)_/
-            /_]'  /_]'
-```
-
 Pigsty is designed as a replacement for Barnyard2.  It's written in Javascript
 using Node.js.
 
@@ -20,6 +7,53 @@ using Node.js.
 
 We wanted something that was a little more extensible than Barnyard2.  
 Thus, Pigsty was born.
+
+## Usage
+
+```
+                 ,.
+                (_|,.
+	     ,' /, )_______   _
+	  __j o``-'        `.'-)'
+	 (")                 '
+	  `-j                |
+	    `-._(           /
+	       |_  |--^.  /
+	      /_]'|_| /_)_/
+	         /_]'  /_]'
+
+	      Version:  0.1.0
+	Pigsty by Threat Stack, Inc
+	https://www.threatstack.com
+
+
+   Usage: pigsty [-options]
+
+	 -c, --config     Pigsty configuration file. Default path: /etc/pigsty.config.js
+	 -D, --daemon     Run Pigsty in daemon mode.
+	     --validate   Check your Pigsty configuration file for errors.
+	 -V, --verbose    Turn on verbose logging.
+	 -v, --version    Application version.
+	 -h, --help       Application usage.
+
+   Sensor Information:
+	 -n, --name       Sensor name.
+	 -i, --interface  Sensor interface.
+
+   Log Configurations
+	 -d, --dir        Log directory.
+	 -m, --match      Logs file must match express to be processed.
+	 -M, --mode       Processing mode (continuous|read). Default: continuous
+	 -b, --bookmark   Bookmark file path.
+
+   References:
+	 -R, --reference        Reference file.
+	 -C, --classification   Classification file.
+	 -G, --gen-msg          Gen-msg.map file.
+	 -S, --sid-msg          Sid-msg.map file.
+
+	 Example: pigsty -i en1 -n "Pigsty" -d /logs/ -m unified2.alert.* -c ~/pigsty.config.js -D
+```
 
 ## Installation
 
