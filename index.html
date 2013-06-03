@@ -42,6 +42,9 @@ using Node.js.</p>
 
 <p>We wanted something that was a little more extensible than Barnyard2. Thus, Pigsty was born.</p>
 
+<p>Pigsty's output architecture is plugin based.  You must install Pigsty, then install
+and configure any output plugins. you need.</p>
+
 <h2>
 <a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
 
@@ -72,6 +75,20 @@ $ cd ./pigsty &amp;&amp; npm install
 $ pigsty setup                         # setup your config. 
 $ ./bin/pigsty 
 </code></pre>
+
+<h2>
+<a name="output-plugins" class="anchor" href="#output-plugins"><span class="octicon octicon-link"></span></a>Output Plugins</h2>
+
+<p>Currently, the following plugins are available:</p>
+
+<ul>
+<li>
+<a href="https://github.com/threatstack/pigsty-mysql">pigsty-mysql</a> - MySQL output for Snort ACID schema</li>
+<li>
+<a href="https://github.com/threatstack/pigsty-websocket">pigsty-websocket</a> - Websocket example output </li>
+<li>
+<a href="https://github.com/threatstack/pigsty-websocket">pigsty-mongodb</a> - MongoDB example output</li>
+</ul><p>To install, type <code>npm install &lt;plugin&gt; -g</code>, e.g. <code>npm install pigsty-mysql -g</code></p>
 
 <h2>
 <a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
