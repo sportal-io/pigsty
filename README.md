@@ -89,6 +89,7 @@ To install, type `npm install <plugin> -g`, e.g. `npm install pigsty-mysql -g`
 	 -S, --sid-msg          Sid-msg.map file.
 
 	 Example: pigsty -i en1 -n "Pigsty" -d /logs/ -m unified2.alert.* -c ~/pigsty.config.js -D
+```
 
 ## Performance
 
