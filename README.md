@@ -21,6 +21,9 @@ using Node.js.
 We wanted something that was a little more extensible than Barnyard2.  
 Thus, Pigsty was born.
 
+Pigsty's output architecture is plugin based.  You must install Pigsty, then install
+and configure any output plugins. you need.
+
 ## Installation
 
 ### Requirements
@@ -45,6 +48,16 @@ Instructions for doing so are here: https://github.com/joyent/node/wiki/Installi
     $ cd ./pigsty && npm install
     $ pigsty setup                         # setup your config. 
     $ ./bin/pigsty 
+
+## Output Plugins
+
+Currently, the following plugins are available:
+
+* [pigsty-mysql](https://github.com/threatstack/pigsty-mysql) - MySQL output for Snort ACID schema
+* [pigsty-websocket](https://github.com/threatstack/pigsty-websocket) - Websocket example output 
+* [pigsty-mongodb](https://github.com/threatstack/pigsty-websocket) - MongoDB example output
+
+To install, type `npm install <plugin> -g`, e.g. `npm install pigsty-mysql -g`
 
 ## Performance
 
