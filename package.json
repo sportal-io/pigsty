@@ -1,7 +1,9 @@
 {
   "name": "pigsty",
-  "version": "0.1.0",
-  "bin": { "pigsty": "./bin/pigsty" },
+  "version": "0.1.1",
+  "bin": {
+    "pigsty": "./bin/pigsty"
+  },
   "description": "Pigsty is parser and output plugin framework for your Snort unified2 files.",
   "main": "./lib/pigsty.js",
   "scripts": {

@@ -40,6 +40,7 @@ Instructions for doing so are here: https://github.com/joyent/node/wiki/Installi
 Currently, the following plugins are available:
 
 * [pigsty-mysql](https://github.com/threatstack/pigsty-mysql) - MySQL output for Snort ACID schema
+* [pigsty-sguil](https://github.com/threatstack/pigsty-sguil) - Sends output to sguild 
 * [pigsty-websocket](https://github.com/threatstack/pigsty-websocket) - Websocket example output 
 * [pigsty-mongodb](https://github.com/threatstack/pigsty-websocket) - MongoDB example output
 
