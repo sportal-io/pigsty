@@ -41,8 +41,10 @@ Currently, the following plugins are available:
 
 * [pigsty-mysql](https://github.com/threatstack/pigsty-mysql) - MySQL output for Snort ACID schema
 * [pigsty-sguil](https://github.com/threatstack/pigsty-sguil) - Sends output to sguild 
-* [pigsty-websocket](https://github.com/threatstack/pigsty-websocket) - Websocket example output 
-* [pigsty-mongodb](https://github.com/threatstack/pigsty-websocket) - MongoDB example output
+* [pigsty-websocket](https://github.com/threatstack/pigsty-websocket) - Websocket output plugin 
+* [pigsty-mongodb](https://github.com/threatstack/pigsty-websocket) - MongoDB output plugin
+* [pigsty-syslog](https://github.com/threatstack/pigsty-syslog) - Syslog output plugin
+* [pigsty-irc](https://github.com/threatstack/pigsty-irc) - IRC output plugin
 
 To install, type `npm install <plugin> -g`, e.g. `npm install pigsty-mysql -g`
 
