@@ -45,7 +45,7 @@ Currently, the following plugins are available:
 * [pigsty-mongodb](https://github.com/threatstack/pigsty-websocket) - MongoDB output plugin
 * [pigsty-syslog](https://github.com/threatstack/pigsty-syslog) - Syslog output plugin
 * [pigsty-irc](https://github.com/threatstack/pigsty-irc) - IRC output plugin
-* [pigsty-rest](https://github.com/threatstack/pigsty-rest) - Rest output plugin by @larsx (Eduardo Urias)
+* [pigsty-rest](https://github.com/threatstack/pigsty-rest) - Rest output plugin by [larsx](https://github.com/larsx2) (Eduardo Urias)
 
 To install, type `npm install <plugin> -g`, e.g. `npm install pigsty-mysql -g`
 
