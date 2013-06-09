@@ -16,7 +16,7 @@ and configure any output plugins. you need.
 
 Pigsty requires libpcap (`apt get install libpcap-dev` on ubuntu).
 You also need to install node.js for your platform.  We recommend v.10.x.
-Instructions for doing so are here: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+Instructions for doing so are here: [https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
 
 ### Ordinary people
 
