@@ -16,7 +16,7 @@ and configure any output plugins. you need.
 
 Pigsty requires libpcap (`apt get install libpcap-dev` on ubuntu).
 You also need to install node.js for your platform.  We recommend v.10.x.
-Instructions for doing so are here: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+Instructions for doing so are here: [https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
 
 ### Ordinary people
 
@@ -45,6 +45,7 @@ Currently, the following plugins are available:
 * [pigsty-mongodb](https://github.com/threatstack/pigsty-websocket) - MongoDB output plugin
 * [pigsty-syslog](https://github.com/threatstack/pigsty-syslog) - Syslog output plugin
 * [pigsty-irc](https://github.com/threatstack/pigsty-irc) - IRC output plugin
+* [pigsty-rest](https://github.com/threatstack/pigsty-rest) - Rest output plugin by [larsx](https://github.com/larsx2) (Eduardo Urias)
 
 To install, type `npm install <plugin> -g`, e.g. `npm install pigsty-mysql -g`
 
