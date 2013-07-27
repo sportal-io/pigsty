@@ -8,7 +8,7 @@ using Node.js.
 We wanted something that was a little more extensible than Barnyard2. Thus, Pigsty was born.
 
 Pigsty's output architecture is plugin based.  You must install Pigsty, then install
-and configure any output plugins. you need.
+and configure any output plugins you need.
 
 ## Installation
 
@@ -78,6 +78,7 @@ To upgrade any output plugin, please run `npm upgrade -g <plugin_name>`.
 	 -c, --config     Pigsty configuration file. Default path: /etc/pigsty.config.js
 	 -D, --daemon     Run Pigsty in daemon mode.
 	     --validate   Check your Pigsty configuration file for errors.
+   -P, --pid        Specify a pid file (daemon mode only).
 	 -V, --verbose    Turn on verbose logging.
 	 -v, --version    Application version.
 	 -h, --help       Application usage.
