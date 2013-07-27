@@ -28,7 +28,13 @@ module.exports = {
     mode: 'continuous', 
 
     // Where to store the bookmark for unified2 logs. default is /etc/pigsty/.bookmark
-    bookmark: '/etc/pigsty/.bookmark'
+    bookmark: '/etc/pigsty/.bookmark',
+
+    // uncomment below to enable archiver 
+    //archiver: {
+    //  action: 'move',  // can also be 'delete' 
+    //  dst: '/tmp/snort/processed'
+    //}
   },
 
   // configure your output plugins here.
