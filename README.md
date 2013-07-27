@@ -102,6 +102,26 @@ To upgrade any output plugin, please run `npm upgrade -g <plugin_name>`.
 	 Example: pigsty -i en1 -n "Pigsty" -d /logs/ -m unified2.alert.* -c ~/pigsty.config.js -D
 ```
 
+## Configuration Options in pigsty.config.js 
+
+### Enable Archiving
+
+Add a section 'archiver' under logs to enable archving
+to an alternative directory after processing.
+
+```js
+logs: {
+   
+   ...
+
+   archiver: {
+     action: 'move',  // can also be 'delete' 
+     dst: '/tmp/snort/processed' // where to move logs 
+   }
+}
+```
+
+
 ## Performance
 
 Currently, the unified2 spooler reads at about 7000eps. Running w/ the pigsty-mysql
