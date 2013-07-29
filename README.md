@@ -51,9 +51,9 @@ To install, type `npm install <plugin> -g`, e.g. `npm install pigsty-mysql -g`
 
 ## Upgrading
 
-To upgrade pigsty to the latest version, run `npm upgrade -g pigsty`.
+To upgrade pigsty to the latest version, run `npm update -g pigsty`.
 
-To upgrade any output plugin, please run `npm upgrade -g <plugin_name>`.
+To upgrade any output plugin, please run `npm update -g <plugin_name>`.
 
 ## Usage
 
