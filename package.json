@@ -1,6 +1,6 @@
 {
   "name": "pigsty",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "bin": {
     "pigsty": "./bin/pigsty"
   },
@@ -13,7 +13,7 @@
   "author": "Threat Stack, Inc",
   "license": "GPLv3",
   "dependencies": {
-    "unified2": "0.1.4",
+    "unified2": "0.1.5",
     "optimist": "~0.3.5",
     "glob": "~3.1.20",
     "debug": "~0.7.2",
