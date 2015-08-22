@@ -1,3 +1,7 @@
+# This repository is no longer maintained.
+
+Issue reports and pull requests will not be attended. 
+
 # Pigsty
 
 Pigsty is designed as a replacement for Barnyard2.  It's written in Javascript
@@ -166,10 +170,6 @@ A. Make sure you install libpcap
 A.  Usually, it will get symlinked to /usr/bin.  Depending on your platform, npm bin/ path is probably not in your path.  
 You can look for it using `find / -name "pigsty"`.
 
-
-#### Reporting
-
-Use the git issues, or send an email to support@threatstack.com
 
 ## License
 
