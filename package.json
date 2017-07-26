@@ -13,14 +13,15 @@
   "author": "Threat Stack, Inc",
   "license": "GPLv3",
   "dependencies": {
-    "unified2": "0.1.5",
-    "optimist": "~0.3.5",
-    "glob": "~3.1.20",
-    "debug": "~0.7.2",
-    "underscore": "~1.4.4",
-    "ip": "0.0.5",
-    "commander": "~1.1.1",
-    "wrench": "~1.5.1",
-    "mv": "0.0.5"
+    "unified2": "https://github.com/sportal-io/unified2",
+    "minimist": "1.2.0",
+    "glob": "7.1.2",
+    "debug": "2.6.8",
+    "underscore": "1.8.3",
+    "ip": "1.1.5",
+    "wrench": "1.5.9",
+    "mv": "2.1.1",
+    "co": "4.6.0",
+    "co-prompt": "1.0.0"
   }
 }
