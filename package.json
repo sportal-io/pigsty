@@ -1,6 +1,6 @@
 {
   "name": "pigsty",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "bin": {
     "pigsty": "./bin/pigsty"
   },
@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/threatstack/pigsty",
-  "author": "Threat Stack, Inc",
+  "repository": "https://github.com/sportal-io/pigsty",
+  "author": "Sportal.io",
   "license": "GPLv3",
   "dependencies": {
     "unified2": "https://github.com/sportal-io/unified2",
@@ -19,7 +19,7 @@
     "debug": "2.6.8",
     "underscore": "1.8.3",
     "ip": "1.1.5",
-    "wrench": "1.5.9",
+    "fs-extra": "4.0.0",
     "mv": "2.1.1",
     "co": "4.6.0",
     "co-prompt": "1.0.0"
